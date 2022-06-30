@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    tools:context=".navigation.recommend.RecommendFragment">
+
+    <TextView
+        android:text="系统根据您的基本信息作出以下推荐"
+        android:id="@+id/text_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <ListView
+        android:id="@+id/recommend_item"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

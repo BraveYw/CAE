@@ -1,0 +1,3 @@
+include ':XBaseBrowser'
+include ':app'
+rootProject.name = "BraveYwCAE"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.yang.cae.navigation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_recommend"
+        android:name="com.yang.cae.navigation.recommend.RecommendFragment"
+        android:label="@string/title_recommend"
+        tools:layout="@layout/fragment_recommend" />
+
+    <fragment
+        android:id="@+id/navigation_collect"
+        android:name="com.yang.cae.navigation.collect.CollectFragment"
+        android:label="@string/title_collect"
+        tools:layout="@layout/fragment_collect" />
+    <fragment
+        android:id="@+id/navigation_expand"
+        android:name="com.yang.cae.navigation.expand.ExpandFragment"
+        android:label="@string/title_expand"
+        tools:layout="@layout/fragment_expand" />
+</navigation>

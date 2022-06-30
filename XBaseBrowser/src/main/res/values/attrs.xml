@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XBaseTitleBar">
+        <attr name="titleBarTitle" format="string"/>
+        <attr name="titleBarLeftImage" format="reference"/>
+        <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarBackground" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingLayout">
+        <attr name="loadingView" format="reference" />
+        <attr name="stateView" format="reference" />
+        <attr name="emptyView" format="reference" />
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+
+    <!-- 数字进度条 -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+</resources>

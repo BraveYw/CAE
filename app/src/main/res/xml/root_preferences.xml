@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="主题设置">
+        <SwitchPreferenceCompat
+            app:key="night"
+            app:title="夜间模式"
+            app:summaryOff="也关闭"
+            app:summaryOn="也开启"/>
+        <ListPreference
+            app:defaultValue="theme"
+            app:entries="@array/theme"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="主题切换"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="其他设置">
+        <SwitchPreferenceCompat
+            app:key="auto_update"
+            app:title="自动更新"/>
+
+        <SwitchPreferenceCompat
+            app:key="clean"
+            app:summaryOff="允许缓存"
+            app:summaryOn="也开启"
+            app:title="自动清理缓存" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

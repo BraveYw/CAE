@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_setting"
+        android:icon="@drawable/ic_user"
+        android:title="@string/user_setting" />
+    <item
+        android:id="@+id/system_settings"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/system_settings" />
+
+    <item
+        android:id="@+id/about_cae"
+        android:icon="@drawable/ic_about_cae"
+        android:title="@string/about_cae" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit" />
+</menu>

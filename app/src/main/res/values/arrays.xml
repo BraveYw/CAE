@@ -1,0 +1,40 @@
+<resources>
+
+    <string-array name="profession_arrays">
+
+    </string-array>
+    <array name="pic_url">
+        <item>http://47o654i322.qicp.vip/cae/image/1.png</item>
+        <item>http://47o654i322.qicp.vip/cae/image/2.png</item>
+        <item>http://47o654i322.qicp.vip/cae/image/3.png</item>
+        <item>http://47o654i322.qicp.vip/cae/image/4.png</item>
+        <item>http://47o654i322.qicp.vip/cae/image/5.png</item>
+    </array>
+    <array name="advertise_url">
+        <item>https://cet-bm.neea.edu.cn/</item>
+        <item>http://sk4.zhongxuewuyou.net/leyu/flzyzgks_m_sem/_06/?</item>
+        <item>https://bm.ruankao.org.cn/sign/welcome</item>
+        <item>http://www.oxbridge.edu.cn/</item>
+        <item>http://lex.lengcjy02.top/yd01/?</item>
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="theme">
+        <item>默认</item>
+        <item>优雅白</item>
+        <item>远峰蓝</item>
+        <item>冷酷黑</item>
+        <item>跟随系统</item>
+        <item>系统推荐</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>默认</item>
+        <item>优雅白</item>
+        <item>远峰蓝</item>
+        <item>冷酷黑</item>
+        <item>跟随系统</item>
+        <item>系统推荐</item>
+    </string-array>
+
+
+</resources>
